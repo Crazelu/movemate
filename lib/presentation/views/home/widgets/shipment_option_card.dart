@@ -25,7 +25,7 @@ class _ShipmentOptionCardState extends State<ShipmentOptionCard>
   late final _controller = AnimationController(
     vsync: this,
     duration: const Duration(
-      milliseconds: 300,
+      milliseconds: 500,
     ),
   );
 

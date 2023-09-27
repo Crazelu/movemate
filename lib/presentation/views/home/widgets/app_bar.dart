@@ -15,6 +15,7 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
       child: SafeArea(
         child: Column(
           children: [
+            const SizedBox(height: 16),
             const _UserInfoWithNotificationRow(),
             const SizedBox(height: 24),
             Hero(
@@ -39,7 +40,7 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 
   @override
-  Size get preferredSize => const Size(double.infinity, 140);
+  Size get preferredSize => const Size(double.infinity, 152);
 }
 
 class _UserInfoWithNotificationRow extends StatelessWidget {

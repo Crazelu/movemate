@@ -21,7 +21,7 @@ class CategoryChip extends StatelessWidget {
       },
       child: AnimatedContainer(
         curve: Curves.easeIn,
-        duration: const Duration(milliseconds: 200),
+        duration: const Duration(milliseconds: 300),
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(8),
